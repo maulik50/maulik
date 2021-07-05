@@ -151,7 +151,9 @@ header .navbar ul li a:hover{
 }
 
 .home{
+    
     display: flex;
+    object-fit: contain;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
@@ -322,7 +324,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .row form .box::placeholder{
-    text-transform: capitalize;
+    text-transform:lowercase;
 }
 
 .contact .row form .message{
@@ -342,6 +344,7 @@ header .navbar ul li a:hover{
     align-items: center;
     font-size: 2rem;
     color:#eee;
+    text-transform: lowercase;
     padding:1rem 0;
     font-weight: normal;
 }
@@ -371,7 +374,7 @@ header .navbar ul li a:hover{
     background:var(--green);
   }
   
-  #footer .copyright {
+  /* #footer .copyright {
     text-align: center;
   }
   
@@ -380,7 +383,7 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 13px;
     color: #eaebf0;
-  }
+  } */
 
 
 
